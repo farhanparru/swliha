@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farhan ❤️ Swaliha Reyhana</title>
+  <style>
+    body {
+      background-color: #fff5f8;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .image-container {
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 5px solid #ffccd5;
+      max-width: 100%;
+      width: 500px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .names {
+      font-size: 32px;
+      color: #ff006e;
+      font-weight: 700;
+      margin-top: 20px;
+      text-shadow: 1px 1px 2px #ffafcc;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 24px;
+      color: #e63946;
+      font-weight: bold;
+    }
+
+    .play-btn {
+      margin-top: 20px;
+      background-color: #ffccd5;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      color: #e63946;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .play-btn:hover {
+      background-color: #ffc0cb;
+    }
+
+    @media (max-width: 480px) {
+      .names {
+        font-size: 26px;
+      }
+      .caption {
+        font-size: 20px;
+      }
+      .play-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Couple Image -->
+  <div class="image-container">
+    <img src="./Image/ChatGPT Image Jun 29, 2025, 12_03_28 PM.png" alt="Couple Love">
+  </div>
+
+  <!-- Couple Names -->
+  <div class="names">Farhan ❤️ Swaliha Reyhana</div>
+
+  <!-- Caption -->
+  <div class="caption">Together Forever, In Love Always 💞</div>
+
+  <!-- Play Music Button -->
+  <button class="play-btn" onclick="document.getElementById('bgMusic').play()">🎵 Play Our Song</button>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="./Image/Sundari_Laila.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+</body>
+</html>
